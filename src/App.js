@@ -1,33 +1,25 @@
-
-import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-// import Component from './components/comp1';
-// import Greeting from './components/Greeting';
-// import MyComponent from './components/Component';
-import HookUseState from './Hooks/counter';
 
-
-function MyComponents() {
+function App() {
   return (
-    <>
     <div className="App">
       <header className="App-header">
-        {/* <div>
-          {/* example component 
-          <Component/> 
-          <Greeting user="Gauri" />
-          {/* Eg Props 
-          <Greeting />
-          {/* Component render 
-          <MyComponent name="Gauri" />
-        </div> */}
-
-        <div>
-          <HookUseState/>
-        </div>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
     </div>
-    </>
   );
 }
-export default MyComponents;
+
+export default App;
